@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="heroTitile text-[62.7268px]text-center text-white uppercase -z-10 funnel-sans md:text-[13rem] md:w-[61%]">
+        <h1 className="md:heroTitile absolute text-[72px] top-5 text-center text-white uppercase -z-10 funnel-sans md:text-[13rem] md:w-[61%]">
           jayed r.
         </h1>
 
