@@ -1,5 +1,11 @@
+import Hero from "@/sections/Hero";
+
 const Home = () => {
-  return <div> - try to come faster</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default Home;

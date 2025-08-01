@@ -28,7 +28,7 @@ const Navbar = () => {
         src={"/img/logo.png"}
         width={165}
         height={37}
-        className="sm:w-[115px] h-[30]"
+        className="sm:w-[90px] h-[30] md:w-[160px]"
       />
 
       {/* Desktop Navigation */}
@@ -82,8 +82,8 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed md:hidden overflow-hidden flex py-[2rem] px-[2rem] bg-[#1d1d1d] flex-col  left-0 top-[15%] w-[100%] h-full  ease-in-out duration-500"
-            : "ease-in-out w-[100%] duration-500 fixed top-[15%] bottom-0 left-[-300%]"
+            ? "fixed md:hidden overflow-hidden flex py-[2rem] px-[2rem] bg-[#1d1d1d] flex-col  left-0 top-[15%] w-[100%] h-full  ease-in-out duration-500 z-30"
+            : "ease-in-out w-[100%] duration-0 fixed top-[15%] bottom-0 left-[-300%]"
         }
       >
         {/* Mobile Navigation Items
